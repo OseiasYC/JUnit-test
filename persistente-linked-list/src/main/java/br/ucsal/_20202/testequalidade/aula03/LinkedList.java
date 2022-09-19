@@ -25,7 +25,7 @@ public class LinkedList<T> implements List<T> {
 			while (aux.prox != null) {
 				aux = aux.prox;
 			}
-			aux = newNode;
+			aux.prox = newNode;
 		}
 		size++;
 	}

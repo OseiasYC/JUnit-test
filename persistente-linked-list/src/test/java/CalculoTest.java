@@ -5,8 +5,8 @@ import br.ucsal._20202.testequalidade.aula03.util.CalculoUtil;
 
 class CalculoTest {  
     
-    @Test
-    //@Disabled
+    //@Test
+    //@Disabled - desabilita teste abaixo.
     @DisplayName("Fatorial de 5")
     void testFatorial() {
         //Definir dados de entrada:
